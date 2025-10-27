@@ -27,7 +27,7 @@
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>true</hidden>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -47,7 +47,7 @@
         <mask_use_encryption>true</mask_use_encryption>
         <name>requested_date</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>700</order>
+        <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -82,14 +82,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-27 06:30:15</sys_created_on>
         <sys_id>53fed916c37032104a10fb2ed4013171</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Requested Date</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="IT Asset Management Application">1f00e328c33032104a10fb2ed40131ac</sys_scope>
         <sys_update_name>item_option_new_53fed916c37032104a10fb2ed4013171</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-27 06:30:34</sys_updated_on>
+        <sys_updated_on>2025-10-27 06:35:02</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
