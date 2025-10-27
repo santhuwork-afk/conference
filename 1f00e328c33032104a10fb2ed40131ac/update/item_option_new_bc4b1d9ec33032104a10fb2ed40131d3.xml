@@ -27,8 +27,8 @@
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>false</hidden>
-        <include_none>true</include_none>
+        <hidden>true</hidden>
+        <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -45,14 +45,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>true</mask_use_encryption>
-        <name>request_type</name>
+        <name>serial_number</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>500</order>
+        <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Request Type</question_text>
+        <question_text>Serial Number</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -80,20 +80,20 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-22 09:21:41</sys_created_on>
-        <sys_id>5a469cf4c37432104a10fb2ed401317b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Request Type</sys_name>
+        <sys_created_on>2025-10-27 06:14:21</sys_created_on>
+        <sys_id>bc4b1d9ec33032104a10fb2ed40131d3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Serial Number</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="IT Asset Management Application">1f00e328c33032104a10fb2ed40131ac</sys_scope>
-        <sys_update_name>item_option_new_5a469cf4c37432104a10fb2ed401317b</sys_update_name>
+        <sys_update_name>item_option_new_bc4b1d9ec33032104a10fb2ed40131d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-27 06:14:53</sys_updated_on>
+        <sys_updated_on>2025-10-27 06:14:54</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>5</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -109,22 +109,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=5a469cf4c37432104a10fb2ed401317b"/>
-    <fx_price action="delete_multiple" query="id=5a469cf4c37432104a10fb2ed401317b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bc4b1d9ec33032104a10fb2ed40131d3"/>
+    <fx_price action="delete_multiple" query="id=bc4b1d9ec33032104a10fb2ed40131d3"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>5a469cf4c37432104a10fb2ed401317b</id>
+        <id>bc4b1d9ec33032104a10fb2ed40131d3</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-22 09:21:41</sys_created_on>
-        <sys_id>a7665038c37432104a10fb2ed40131ab</sys_id>
+        <sys_created_on>2025-10-27 06:14:21</sys_created_on>
+        <sys_id>5c8b51dec33032104a10fb2ed40131ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-22 09:21:41</sys_updated_on>
+        <sys_updated_on>2025-10-27 06:14:21</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -132,16 +132,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>5a469cf4c37432104a10fb2ed401317b</id>
+        <id>bc4b1d9ec33032104a10fb2ed40131d3</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-22 09:21:41</sys_created_on>
-        <sys_id>6f665038c37432104a10fb2ed40131aa</sys_id>
+        <sys_created_on>2025-10-27 06:14:21</sys_created_on>
+        <sys_id>148b51dec33032104a10fb2ed40131ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-22 09:21:41</sys_updated_on>
+        <sys_updated_on>2025-10-27 06:14:21</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
