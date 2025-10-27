@@ -29,7 +29,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Request Asset of IT</name>
+        <name>IT Asset Management Request</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -65,21 +65,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-22 09:16:39</sys_created_on>
         <sys_id>163590bcc33432104a10fb2ed401311a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Request Asset of IT</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>IT Asset Management Request</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="IT Asset Management Application">1f00e328c33032104a10fb2ed40131ac</sys_scope>
         <sys_update_name>sc_cat_item_163590bcc33432104a10fb2ed401311a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-22 09:26:44</sys_updated_on>
+        <sys_updated_on>2025-10-27 06:07:44</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>1</version>
+        <version>3</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Request Asset of IT">163590bcc33432104a10fb2ed401311a</sc_cat_item>
+        <sc_cat_item display_value="IT Asset Management Request">163590bcc33432104a10fb2ed401311a</sc_cat_item>
         <sc_category display_value="Hardware">d258b953c611227a0146101fb1be7c31</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Request Asset of IT">163590bcc33432104a10fb2ed401311a</cat_item>
+        <cat_item display_value="IT Asset Management Request">163590bcc33432104a10fb2ed401311a</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
