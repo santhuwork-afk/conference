@@ -24,6 +24,7 @@
                 <element inactive_on_update="false" label="Keyboard" sequence="3" value="keyboard"/>
                 <element inactive_on_update="false" label="Headset" sequence="4" value="headset"/>
                 <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive_on_update="false" label="Laptop Stand" sequence="5" value="laptop_stand"/>
             </choice>
         </element>
         <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
