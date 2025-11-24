@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="IT Asset Management Request">163590bcc33432104a10fb2ed401311a</sc_cat_item>
+        <sc_category display_value="Hardware">d258b953c611227a0146101fb1be7c31</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 09:26:32</sys_created_on>
+        <sys_id>6a875878c37432104a10fb2ed4013125</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Hardware.Request Asset of IT</sys_name>
+        <sys_package display_value="IT Asset Management Application" source="x_1475030_it_ass_0">1f00e328c33032104a10fb2ed40131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management Application">1f00e328c33032104a10fb2ed40131ac</sys_scope>
+        <sys_update_name>sc_cat_item_category_6a875878c37432104a10fb2ed4013125</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 09:26:44</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Asset Management Application">1f00e328c33032104a10fb2ed40131ac</application>
+        <file_path/>
+        <instance_id>b59c0d7ddbfa3150ae4c9027c5961968</instance_id>
+        <instance_name>dev228641</instance_name>
+        <name>sc_cat_item_category_6a875878c37432104a10fb2ed4013125</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="IT Asset Management Request">163590bcc33432104a10fb2ed401311a</sc_cat_item><sc_category display_value="Hardware">d258b953c611227a0146101fb1be7c31</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-22 09:26:32</sys_created_on><sys_id>6a875878c37432104a10fb2ed4013125</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Hardware.Request Asset of IT</sys_name><sys_package display_value="IT Asset Management Application" source="x_1475030_it_ass_0">1f00e328c33032104a10fb2ed40131ac</sys_package><sys_policy/><sys_scope display_value="IT Asset Management Application">1f00e328c33032104a10fb2ed40131ac</sys_scope><sys_update_name>sc_cat_item_category_6a875878c37432104a10fb2ed4013125</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-22 09:26:44</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-174683293</payload_hash>
+        <record_name>Hardware.Request Asset of IT</record_name>
+        <reverted_from/>
+        <source>32f9d91ec33032104a10fb2ed4013198</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-27 06:07:43</sys_created_on>
+        <sys_id>4ff9d91ec33032104a10fb2ed40131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a244797e70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-27 06:07:43</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>cff9d91e8c30321048d1ba9351a460e3</update_guid>
+        <update_guid_history>cff9d91e8c30321048d1ba9351a460e3:-174683293,2997d8786c743210cbd8da88cc40a093:1696901543</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hardware.Request Asset of IT">2ef18d2bc34532104a10fb2ed40131ef</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-12 11:50:55</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>244d8585c2794c62887f73f90984afe4</sys_id>
+        <sys_metadata>6a875878c37432104a10fb2ed4013125</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware.Request Asset of IT</sys_name>
+        <sys_package display_value="IT Asset Management Application" source="x_1475030_it_ass_0">1f00e328c33032104a10fb2ed40131ac</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management Application">1f00e328c33032104a10fb2ed40131ac</sys_scope>
+        <sys_scope_delete display_value="">1f0426bf40ad4e3083d90c0d11bb7919</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_6a875878c37432104a10fb2ed4013125</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_6a875878c37432104a10fb2ed4013125">4ff9d91ec33032104a10fb2ed40131e4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-12 11:50:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

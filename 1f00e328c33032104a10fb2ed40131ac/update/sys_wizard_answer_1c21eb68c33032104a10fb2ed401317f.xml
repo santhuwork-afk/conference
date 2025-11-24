@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>IT Asset Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>IT Asset Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">2ab4407fe13222108bb2327e62588641</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 05:28:49</sys_created_on>
+        <sys_id>1c21eb68c33032104a10fb2ed401317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Asset Request</sys_name>
+        <sys_package display_value="IT Asset Management Application" source="x_1475030_it_ass_0">1f00e328c33032104a10fb2ed40131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management Application">1f00e328c33032104a10fb2ed40131ac</sys_scope>
+        <sys_update_name>sys_wizard_answer_1c21eb68c33032104a10fb2ed401317f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 05:28:49</sys_updated_on>
+        <table/>
+        <target_url>x_1475030_it_ass_0_it_asset_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

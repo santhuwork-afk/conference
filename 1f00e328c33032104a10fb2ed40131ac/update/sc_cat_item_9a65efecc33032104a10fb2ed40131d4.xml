@@ -4,17 +4,17 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="My Catalog Items">d7ff7c67c34532104a10fb2ed401319a</category>
-        <checked_out>false</checked_out>
+        <category display_value="Hardware">d258b953c611227a0146101fb1be7c31</category>
+        <checked_out>true</checked_out>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
-        <delivery_time>1970-01-01 00:00:00</delivery_time>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Procurement Process Flow - Hardware">dc65a5c5296f1a10f877041a78092ec6</flow_designer_flow>
+        <flow_designer_flow/>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -29,7 +29,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>IT Asset Management Request</name>
+        <name>Request IT Asset</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -47,60 +47,78 @@
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=163590bcc33432104a10fb2ed401311a&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=9a65efecc33032104a10fb2ed40131d4&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
+        <recurring_price>0</recurring_price>
         <request_method/>
         <roles/>
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <sc_template display_value="">500781879320221014d63b953489187e</sc_template>
-        <short_description>Request the IT Asset you need</short_description>
+        <sc_template/>
+        <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-22 09:16:39</sys_created_on>
-        <sys_id>163590bcc33432104a10fb2ed401311a</sys_id>
-        <sys_mod_count>24</sys_mod_count>
-        <sys_name>IT Asset Management Request</sys_name>
-        <sys_package/>
+        <sys_created_on>2025-10-22 05:49:05</sys_created_on>
+        <sys_id>9a65efecc33032104a10fb2ed40131d4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Request IT Asset</sys_name>
+        <sys_package display_value="IT Asset Management Application" source="x_1475030_it_ass_0">1f00e328c33032104a10fb2ed40131ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Asset Management Application">1f00e328c33032104a10fb2ed40131ac</sys_scope>
-        <sys_update_name>sc_cat_item_163590bcc33432104a10fb2ed401311a</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-12 11:50:55</sys_updated_on>
+        <sys_update_name>sc_cat_item_9a65efecc33032104a10fb2ed40131d4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-10-22 06:18:26</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>20</version>
+        <version>6</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=163590bcc33432104a10fb2ed401311a"/>
-    <fx_price action="delete_multiple" query="id=163590bcc33432104a10fb2ed401311a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9a65efecc33032104a10fb2ed40131d4"/>
+    <fx_price action="delete_multiple" query="id=9a65efecc33032104a10fb2ed40131d4"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>163590bcc33432104a10fb2ed401311a</id>
+        <id>9a65efecc33032104a10fb2ed40131d4</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-22 09:16:39</sys_created_on>
-        <sys_id>ce45d4b4c37432104a10fb2ed40131f0</sys_id>
+        <sys_created_on>2025-10-22 05:49:06</sys_created_on>
+        <sys_id>e9c5e720c37032104a10fb2ed4013193</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-22 09:16:39</sys_updated_on>
+        <sys_updated_on>2025-10-22 05:49:06</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>9a65efecc33032104a10fb2ed40131d4</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 05:49:06</sys_created_on>
+        <sys_id>21c5e720c37032104a10fb2ed4013194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 05:49:06</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
