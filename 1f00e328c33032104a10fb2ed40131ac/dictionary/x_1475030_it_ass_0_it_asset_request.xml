@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d021eb68c33032104a10fb2ed401317e" extends="task" label="IT Asset Request" max_length="40" name="x_1475030_it_ass_0_it_asset_request" type="collection">
+        <element label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <element choice="3" label="Request Type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Return" sequence="2" value="return"/>
+                <element inactive_on_update="false" label="Replace" sequence="1" value="replace"/>
+            </choice>
+        </element>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
+            </choice>
+        </element>
+        <element label="Requested Date" max_length="255" name="requested_date" type="glide_date_time"/>
+        <element choice="3" label="Asset Type" max_length="40" name="asset_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monitor" sequence="1" value="monitor"/>
+                <element inactive_on_update="false" label="Mouse" sequence="2" value="mouse"/>
+                <element inactive_on_update="false" label="Keyboard" sequence="3" value="keyboard"/>
+                <element inactive_on_update="false" label="Headset" sequence="4" value="headset"/>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive_on_update="false" label="Laptop Stand" sequence="5" value="laptop_stand"/>
+            </choice>
+        </element>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element display="true" label="Employee Name" max_length="40" name="employee_name" type="string"/>
+    </element>
+</database>

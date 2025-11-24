@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="IT Asset Management Request">163590bcc33432104a10fb2ed401311a</cat_item>
+        <cat_variable>IO:5a469cf4c37432104a10fb2ed401317b</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ReqType toggles Serial</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading)return;
+   var needSN = (newValue === 'Return');
+   g_form.setMandatory('serial_number',needSN);
+   g_form.setVisible('serial_number',needSN);
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-27 06:26:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a9d9992c37032104a10fb2ed4013128</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ReqType toggles Serial</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Asset Management Application" source="x_1475030_it_ass_0">1f00e328c33032104a10fb2ed40131ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management Application">1f00e328c33032104a10fb2ed40131ac</sys_scope>
+        <sys_update_name>catalog_script_client_2a9d9992c37032104a10fb2ed4013128</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-27 06:26:31</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Asset Management Application">1f00e328c33032104a10fb2ed40131ac</application>
+        <file_path/>
+        <instance_id>b59c0d7ddbfa3150ae4c9027c5961968</instance_id>
+        <instance_name>dev228641</instance_name>
+        <name>catalog_script_client_2a9d9992c37032104a10fb2ed4013128</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="IT Asset Management Request"&gt;163590bcc33432104a10fb2ed401311a&lt;/cat_item&gt;&lt;cat_variable&gt;IO:5a469cf4c37432104a10fb2ed401317b&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;ReqType toggles Serial&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading)return;
+   var needSN = (newValue === 'Return');
+   g_form.setMandatory('serial_number',needSN);
+   g_form.setVisible('serial_number',needSN);
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-27 06:26:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2a9d9992c37032104a10fb2ed4013128&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;ReqType toggles Serial&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="IT Asset Management Application" source="x_1475030_it_ass_0"&gt;1f00e328c33032104a10fb2ed40131ac&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Asset Management Application"&gt;1f00e328c33032104a10fb2ed40131ac&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_2a9d9992c37032104a10fb2ed4013128&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-27 06:26:31&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>39083068</payload_hash>
+        <record_name>ReqType toggles Serial</record_name>
+        <reverted_from/>
+        <source>1700e328c33032104a10fb2ed40131b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-27 06:26:31</sys_created_on>
+        <sys_id>664ed5d2c37032104a10fb2ed40131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a2458cfc30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-27 06:26:31</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>ea4ed5d2e8703210a21efc49114353eb</update_guid>
+        <update_guid_history>ea4ed5d2e8703210a21efc49114353eb:39083068</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ReqType toggles Serial">f863611ec37032104a10fb2ed40131b7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-27 06:48:48</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>d3d60d26a806403aadc521d508c77d84</sys_id>
+        <sys_metadata>2a9d9992c37032104a10fb2ed4013128</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ReqType toggles Serial</sys_name>
+        <sys_package display_value="IT Asset Management Application" source="x_1475030_it_ass_0">1f00e328c33032104a10fb2ed40131ac</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management Application">1f00e328c33032104a10fb2ed40131ac</sys_scope>
+        <sys_scope_delete display_value="">1f0426bf40ad4e3083d90c0d11bb7919</sys_scope_delete>
+        <sys_update_name>catalog_script_client_2a9d9992c37032104a10fb2ed4013128</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_2a9d9992c37032104a10fb2ed4013128">664ed5d2c37032104a10fb2ed40131ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-27 06:48:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
